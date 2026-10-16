@@ -14,6 +14,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Fixed
 
+- Suppress deprecation warnings in generated `Error` implementations.
+  ([#570](https://github.com/JelteF/derive_more/issues/570))
 - Mistakenly generated code for `owned` type in `TryInto`, `Unwrap` and `TryUnwrap`
   derives when it shouldn't be there (`ref`/`ref_mut` specified without `owned`).
   ([#531](https://github.com/JelteF/derive_more/pull/531))
